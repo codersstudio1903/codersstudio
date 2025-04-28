@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-US" dir="ltr" data-nojs>
+
+<head>
+    <title>Coders Studio - Learning made Fun</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="icon" href="favicon.ico" />
+
+    <link rel="canonical" href="https://www.thecodersstudio.in/" />
+    <link href="https://www.thecodersstudio.in/index" rel="alternate" hreflang="x-default">
+
+    <link
+        href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900'
+        rel='stylesheet' type='text/css'>
+
+    <link href="./index.css" rel="stylesheet" type="text/css">
+
+    <script src="./index.js" defer></script>
+    
+    <!-- For emails -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div id='brand'>
+            <a id='homeLink' href="/">
+                <img id="headLogo" src="logo.png" alt="CodersStudio">
+            </a>
+            <div id='headTextContainer'>
+                <div id='brandHeadText'>Coders Studio</div>
+                <div id='catchPhrase'>Let's get STEMing!</div>
+            </div>
+        </div>
+
+        <div id='navMenu'>
+            <div id="menu">
+                <div id="menuButton" onclick="toggleMenu()">☰</div>
+                <div id="dropMenu" class="hidden">
+                    <div id="homeDrop" class="navDropItems" onclick="selectNavItem(this)">Home</div>
+                    <div id="aboutDrop" class="navDropItems" onclick="selectNavItem(this)">About Us</div>
+                    <div id="coursesDrop" class="navDropItems" onclick="selectNavItem(this)">Courses</div>
+                    <div id="bookDrop" class="navDropItems" onclick="selectNavItem(this)">Book a Demo</div>
+                    <div id="contactDrop" class="navDropItems" onclick="selectNavItem(this)">Contact Us</div>
+                </div>
+            </div>
+            <div id="navItems">
+                <div id="home" class="navItems" onclick="selectNavItem(this)">Home</div>
+                <div id="about" class="navItems" onclick="selectNavItem(this)">About Us</div>
+                <div id="courses" class="navItems" onclick="selectNavItem(this)">Courses</div>
+                <div id="book" class="navItems" onclick="selectNavItem(this)">Book a Demo</div>
+                <div id="contact" class="navItems" onclick="selectNavItem(this)">Contact Us</div>
+            </div>
+        </div>
+    </div>
+    <div id='mainContent'>
+    </div>
+
+</body>

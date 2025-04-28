@@ -1,0 +1,74 @@
+<head>
+    <link href="contact/contact.css" rel="stylesheet" type="text/css">
+    <script src="contact/contact.js" defer></script>
+</head>
+
+<body>
+    <div id="enquiry-form">
+        <h1 id="form-header">Ask a question</h1>
+        <div id="form-container">
+            <div id="form">
+                <div class="inputs">
+                    <p class="form-label">Name: </p> <input type="text" id="name" class="form-input" placeholder="Full Name" required/>
+                </div>
+                <div class="inputs">
+                    <p class="form-label">Age: </p> <input type="number" id="age" class="form-input" placeholder="Age" required/>
+                </div>
+                <div class="inputs">
+                    <p class="form-label">Parent's Name: </p> <input type="text" id="parent-name" class="form-input" placeholder="Parent's Name" required/>
+                </div>
+                <div class="inputs">
+                    <p class="form-label">Phone Number (Whatsapp): </p> <input type="tel" id="phone" class="form-input" placeholder="Phone Number with country code" required/>
+                </div>
+                <div class="inputs">
+                    <p class="form-label">Email: </p> <input type="text" id="email" class="form-input" placeholder="Email" required/>
+                </div>
+                <div class="inputs">
+                    <p class="form-label">Enquiry:</p>
+                    <textarea id="enquiry" class="form-input" placeholder="Write your Write your question here..." maxlength="500" rows="4" required></textarea>
+                </div>
+                <p id="warningText" class="hidden">&nbsp;</p>
+                <div class="center-button">
+                    <button id="submitBtn" onclick="sendEnquiry()">Submit</button>
+                </div>
+            </div>
+            <div id="social-links">
+
+                <!-- Facebook -->
+                <div class="social-links" id="facebook">
+                    <img class="social-icons" src="./contact/facebook.png" />
+                    <p class="social-label">Facebook</p>
+                </div>
+
+                <!-- Instagram -->
+                <div class="social-links" id="instagram">
+                    <img class="social-icons" src="./contact/insta.png" />
+                    <p class="social-label">Instagram</p>
+                </div>
+
+                <!-- Youtube -->
+                <div class="social-links" id="youtube">
+                    <img class="social-icons" src="./contact/youtube.png" />
+                    <p class="social-label">Youtube</p>
+                </div>
+
+                <!-- LinkedIn -->
+                <div class="social-links" id="linkedin">
+                    <img class="social-icons" src="./contact/linkedin.png" />
+                    <p class="social-label">LinkedIn</p>
+                </div>
+
+                <!-- WhatsApp -->
+                <div class="social-links" id="whatsapp">
+                    <img class="social-icons" src="./contact/whatsapp.png" />
+                    <p class="social-label">WhatsApp</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer id="footer">
+        <p>&copy; 2025 Coders Studio. All rights reserved.</p>
+    </footer>
+</body>

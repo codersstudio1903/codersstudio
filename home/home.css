@@ -1,0 +1,269 @@
+@media screen and (max-device-width: 500px) and (orientation: portrait){
+
+}
+
+@media screen and (max-device-width: 950px) and (orientation: landscape){
+    .home-slideshow-container{
+        height: 60% important!;
+    }
+
+}
+
+@media screen and (min-device-width: 500px) and (max-device-width: 1025px) and (orientation: portrait) {}
+
+@media screen and (min-device-width: 950px) and (max-device-width: 1350px) and (orientation: landscape) {}
+
+@media screen and (max-width:767px) {
+    .home-slideshow-container {
+        /* aspect-ratio: 16/9 !important; */
+    }
+
+    .classes {
+        /* width: 37% !important; */
+    }
+
+    .caption {
+        font-size: 1em !important;
+    }
+}
+
+.home-slideshow-container {
+    width: 100%;
+    height: 50%;
+    /* aspect-ratio: 16/4; */
+    position: relative;
+    margin: 0;
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0, 0.5);
+}
+
+/* Caption text */
+.caption {
+    color: #f2f2f27a;
+    font-size: 2em;
+    padding: 0.5em 1em;
+    position: absolute;
+    bottom: 0.5em;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.homeSlides{
+    height: 100%;
+    width: 100%;
+}
+
+.homeSlideImages{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index: 10;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+}
+
+/* Hover effect */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot-container {
+    position: absolute;
+    bottom: 1em;
+    /* Move dots just below the images */
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 1em;
+    width: 1em;
+    margin: 0 2px;
+    background-color: #fff;
+    border: 2px solid #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+#classes-main{
+    width: 100%;
+    background-image: url('./connect.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#classesContainer
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #ffffffcc;
+    min-height: 200px;
+    /* margin-top: 1rem; */
+}
+
+#classesContainer2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #ffffffbb;
+    /* margin-top: 1rem; */
+}
+
+#class-lego{
+    fill: #f44133;
+}
+
+#class-game {
+    fill: #008700c2;
+}
+
+#class-web {
+    fill: #b003f4;
+}
+
+#class-app {
+    fill: #eaf403;
+}
+
+#class-AI {
+    fill: #2196f3;
+}
+
+#class-robotics {
+    fill: #2196f3;
+}
+
+#class-roblox {
+    fill: #eaf403;
+}
+
+#class-micro {
+    fill: #b003f4;
+}
+
+#classCustom {
+    fill: #008700c2;
+}
+
+#classTrain {
+    fill: #f44133;
+}
+
+/* <div class=" red-box"> */
+
+.gear-container{
+    width: 20%;
+    min-width: 200px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .red-box{
+    box-shadow: 1px 1px 10px 1px rgb(255, 0, 0, 0.5);
+}
+.green-box{
+    box-shadow: 1px 1px 10px 1px rgb(0, 255, 0, 0.5);
+}
+.blue-box{
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 255, 0.5);
+}
+.orange-box{
+    box-shadow: 1px 1px 10px 1px rgb(234, 244, 3, 0.5);
+} */
+
+.classes{
+    width: 60%;
+    transition: transform 1s ease;
+    cursor: pointer;
+}
+
+.classes:hover{
+    transform: rotate(360deg);
+    transform-origin: center;
+}
+
+.svgtext {
+    fill: black;
+    /* font-size: 4px; */
+    font-size: 80px;
+    font-family: Arial, sans-serif;
+    text-anchor: middle;
+    dominant-baseline: middle;
+    pointer-events: none;
+}
+
+footer {
+    background: white;
+    color: #3d3d3d;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
