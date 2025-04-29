@@ -45,6 +45,18 @@
 }
 
 @media screen and (max-device-width: 950px) and (orientation: landscape) {
+
+    #aboutUsContainer {
+        min-width: 0 !important;
+    }
+
+    #whyUsContainer {
+        min-width: 0 !important;
+    }
+
+    #aboutUsFooter {
+        height: auto !important;
+    }
     
 }
 
