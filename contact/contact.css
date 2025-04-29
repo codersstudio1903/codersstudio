@@ -13,6 +13,10 @@
         flex-direction: row !important;
         min-width: 0 !important;
     }
+
+    .form-input{
+        min-width: 0 !important;
+    }
 }
 
 @media screen and (max-device-width: 950px) and (orientation: landscape) {
@@ -60,7 +64,7 @@
 
     #social-links{
         width: 90% !important;
-        min-width: 410px !important;
+        min-width: 410px;
         flex-direction: row !important;
     }
 }
