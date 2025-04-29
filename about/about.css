@@ -59,6 +59,21 @@
     }
     
 }
+@media screen and (max-device-width: 500px) and (orientation: landscape) {
+
+    #aboutUsContainer {
+        min-width: 0 !important;
+    }
+
+    #whyUsContainer {
+        min-width: 0 !important;
+    }
+
+    #aboutUsFooter {
+        height: auto !important;
+    }
+    
+}
 
 @media screen and (min-device-width: 500px) and (max-device-width: 1025px) and (orientation: portrait) {
     #aboutUsContainer {
