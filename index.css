@@ -27,6 +27,9 @@
     #catchPhrase {
         display: none;
     }
+    #menu {
+        padding: 0 !important;
+    }
 }
 
 @media screen and (min-device-width: 500px) and (max-device-width: 1025px) and (orientation: portrait) {
