@@ -1,6 +1,7 @@
 @media screen and (max-device-width: 500px) and (orientation: portrait) {
     #aboutUsContainer {
         display: block !important;
+        min-width: 0 !important;
     }
 
     #aboutUsLogoContainer {
@@ -12,12 +13,21 @@
         width: 50% !important;
     }
 
+    #aboutUsTextContainer {
+        width: 100% !important;
+    }
+
     #whyUsContainer {
         display: block !important;
+        min-width: 0 !important;
     }
 
     #whyUsTextContainer {
         width: 100% !important;
+    }
+
+    #whyUsDesc{
+        margin-right: 2rem;
     }
 
     #whyUsLogoContainer {
@@ -28,15 +38,20 @@
         height: auto !important;
         width: 50% !important;
     }
+
+    #aboutUsFooter {
+        height: auto !important;
+    }
 }
 
 @media screen and (max-device-width: 950px) and (orientation: landscape) {
-
+    
 }
 
 @media screen and (min-device-width: 500px) and (max-device-width: 1025px) and (orientation: portrait) {
     #aboutUsContainer {
         display: block !important;
+        min-width: 0 !important;
     }
 
     #aboutUsLogoContainer {
@@ -48,12 +63,21 @@
         width: 50% !important;
     }
 
+    #aboutUsTextContainer {
+        width: 100% !important;
+    }
+
     #whyUsContainer {
         display: block !important;
+        min-width: 0 !important;
     }
 
     #whyUsTextContainer {
         width: 100% !important;
+    }
+
+    #whyUsDesc {
+        margin-right: 2rem;
     }
 
     #whyUsLogoContainer {
@@ -63,6 +87,10 @@
     #whyUsLogo {
         height: auto !important;
         width: 50% !important;
+    }
+
+    #aboutUsFooter {
+        height: auto !important;
     }
 }
 
