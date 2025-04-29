@@ -5,11 +5,13 @@
 
     #form {
         width: 90% !important;
+        min-width: 0 !important;
     }
 
     #social-links {
         width: 90% !important;
         flex-direction: row !important;
+        min-width: 0 !important;
     }
 }
 
@@ -35,11 +37,13 @@
 
     #form {
         width: 90% !important;
+        min-width: 0 !important;
     }
 
     #social-links {
         width: 90% !important;
         flex-direction: row !important;
+        min-width: 0 !important;
     }
 }
 
@@ -56,11 +60,12 @@
 
     #social-links{
         width: 90% !important;
+        min-width: 410px !important;
         flex-direction: row !important;
     }
 }
 
-@media (max-width:660px) {
+@media (max-width:838px) {
     .social-label {
         display: none !important;
     }
@@ -133,6 +138,7 @@
     padding: 2px 4px;
     outline: none;
     font-family: sans-serif;
+    border-radius: 0;
 }
 
 .hidden{
@@ -143,7 +149,9 @@
 .center-button{
     display: flex;
     justify-content: center;
-    width: 71%;
+    /* width: 71%; */
+    width: 100%;
+    max-width: 30rem;
 }
 #submitBtn{
     color: #3d3d3d;
