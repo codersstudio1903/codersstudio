@@ -1,12 +1,3 @@
 User-agent: *
 Allow: /
-
-# Sitemap
-Sitemap: https://www.thecodersstudio.in/sitemap.xml
-
-# Crawl-delay
-Crawl-delay: 1
-
-# Disallow admin areas (if any)
-Disallow: /admin/
-Disallow: /private/
+Sitemap: https://www.thecodersstudio.com/sitemap.xml
