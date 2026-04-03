@@ -131,8 +131,8 @@ This website template is created for Coders Studio. All rights reserved.
 ## Support
 
 For technical support or customization requests, contact:
-- Email: info@thecodersstudio.in
-- Website: https://www.thecodersstudio.in
+- Email: info.codersstudio@gmail.com
+- Website: https://www.thecodersstudio.com
 
 ---
 
